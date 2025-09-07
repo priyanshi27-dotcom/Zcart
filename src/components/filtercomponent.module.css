@@ -1,0 +1,26 @@
+.filtercomponent{
+    margin: 3rem;
+    padding: 1.5rem;
+    font-weight: 300;
+    background-color:var(--lightgrey) ;
+    height :100vh;
+}
+.search{
+    width:100%;
+    padding: 1.5rem;
+    border: 1px solid var(--grey);
+    border-radius: 6px;
+
+}
+.formlabel{
+text-transform:uppercase;
+font-size:1.7rem;
+padding:1rem 0.6rem;
+display: inline-block;
+}
+.range{
+    width:100%;
+    accent-color:var(--grey);
+    display: inline-block;
+    margin-bottom: 2rem;
+}

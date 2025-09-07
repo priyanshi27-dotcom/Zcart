@@ -1,0 +1,12 @@
+.productContent{
+    display: flex;
+}
+/* =====responsive===== */
+@media (max-width:767px)and (min-width:343px) {
+    .productContent{
+    display: block;
+}
+p.lg{
+    font-size: 3rem;
+}
+}

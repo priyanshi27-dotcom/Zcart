@@ -1,0 +1,13 @@
+.about{
+    padding: 3rem 5rem;
+    background:var(--white);
+    border-radius: 15px;
+}
+.abouttxt{
+color:var(--grey);
+line-height:2.4rem;
+margin-top:2rem;
+}
+.heading{
+    padding-bottom: 2rem;
+}
