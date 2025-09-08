@@ -3,7 +3,7 @@
 }
 /* =====responsive===== */
 @media (max-width:767px)and (min-width:343px) {
-    .productContent{
+.productContent{
     display: block;
 }
 p.lg{
