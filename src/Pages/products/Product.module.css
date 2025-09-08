@@ -5,6 +5,9 @@
     margin-top: 2rem;
    
 }
+.filterbtn{
+    display: none;
+}
 /* ====responsive====== */
 @media (max-width:992px) and (min-width:768px) {
    .product{
@@ -37,6 +40,11 @@
         width: 100vw;
         background-color: rgba(0, 0, 0, 0.5); 
         z-index: 1000;
+    }
+    .filterbtn{
+        padding: 1rem;
+        font-size: 1rem;
+        display: block;
     }
   
 }

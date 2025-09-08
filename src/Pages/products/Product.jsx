@@ -46,7 +46,7 @@ const Product=()=>{
                 {
                   data.length > 0 ? (
                     <div>
-                   { isOpen ? <div className={styles.overlay} onClick={toggleOpen}></div>:<button onClick={toggleOpen} className="btn"style={{padding:'1rem',fontSize:'1rem' }}><FontAwesomeIcon icon={faFilter} /></button>}
+                   { isOpen ? <div className={styles.overlay} onClick={toggleOpen}></div>:<button onClick={toggleOpen} className={`btn${styles.filterbtn}`}><FontAwesomeIcon icon={faFilter} /></button>}
                     <div className="flex justify-cntr relative" >
                         <div className={`${styles.filtersection} ${isOpen&& styles.open}`}><FilterSection searchTerm={searchTerm} setSearchTerm={setSearchTerm}
                         category={category} setCategory={setCategory} priceRange={priceRange} 
