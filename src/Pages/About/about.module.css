@@ -1,13 +1,14 @@
-.about{
+.about {
     padding: 3rem 5rem;
-    background:var(--white);
+    background: var(--white);
     border-radius: 15px;
 }
-.abouttxt{
-color:var(--grey);
-line-height:2.4rem;
-margin-top:2rem;
+
+.abouttxt {
+    color: var(--grey);
+    line-height: 2.4rem;
 }
-.heading{
+
+.heading {
     padding-bottom: 2rem;
 }

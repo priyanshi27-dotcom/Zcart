@@ -15,8 +15,8 @@ const Footer=()=>{
                     <h3 className='lg' style={{color:'var(--red)'}}>Zcart</h3>
                     <h4  style={{paddingTop:'0.8rem'}}>Powering Your World with the Best in Electronics.</h4>
                     <ul >
-                        <li className='sm'>123 Electronics St, Style City, NY 10001</li>
-                        <li className='sm'>Email: support@Zaptro.com</li>
+                        <li className='sm'>123 Electronics St, IT Park, Chandigarh</li>
+                        <li className='sm'>Email: support@Zcart.com</li>
                         <li className='sm'>Phone: (123) 456-7890</li>
                     </ul>
                 </div>

@@ -1,16 +1,18 @@
-.Component{
-    background:var(--darkBlue);
+.Component {
+    background: var(--darkBlue);
     color: var(--white);
     padding: 5rem 3rem;
 }
-.name{
+
+.name {
     margin-bottom: 0.4rem;
     color: var(--white);
-    font-size:1.5rem;
-    margin-bottom:0.5rem;
+    font-size: 1.5rem;
+    margin-bottom: 0.5rem;
     display: block;
 }
-.input{
+
+.input {
     padding: 1rem 1.6rem;
     margin-bottom: 2rem;
     background-color: var(--white);
@@ -18,36 +20,41 @@
     border: 0;
     outline-color: var(--grey);
     width: 100%;
-    }
-.text{
+}
+
+.text {
     width: 100%;
     border-radius: 8px;
     border: 0;
     padding: 1rem 1.6rem;
     margin-bottom: 2rem;
-    background: rgba(255, 255, 255, 0.4); 
-    backdrop-filter: blur(10px); 
+    background: rgba(255, 255, 255, 0.4);
+    backdrop-filter: blur(10px);
     outline-color: var(--grey);
     color: var(--white);
 }
-.contactBlock{
+
+.contactBlock {
     padding: 5rem 3rem;
-    background: rgba(255, 255, 255, 0.1); 
-    backdrop-filter: blur(10px); 
+    background: rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(10px);
     border-radius: 8px;
 }
-.contactitem{
-        display:grid;
-        grid-template-columns: repeat(2,1fr);
-        grid-gap: 3rem;
-    }
+
+.contactitem {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 3rem;
+}
+
 /* ====responsive===== */
 @media (max-width:767px) and (min-width:343px) {
-    .contactitem{
-        grid-template-columns: repeat(1,1fr);
+    .contactitem {
+        grid-template-columns: repeat(1, 1fr);
     }
-    .contactBlock{
-    padding: 0;
-    background: rgba(255, 255, 255, 0); 
+
+    .contactBlock {
+        padding: 0;
+        background: rgba(255, 255, 255, 0);
     }
 }

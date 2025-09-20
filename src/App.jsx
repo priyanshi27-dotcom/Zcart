@@ -11,7 +11,7 @@ import "./global.css";
 import { BrowserRouter, Routes, Route, useLocation } from "react-router-dom"
 import SingleCategory from "./components/Singlecategory"
 function App() {
-  
+
   return (
     <>
       <BrowserRouter>
@@ -23,6 +23,9 @@ function App() {
 const AppContent = () => {
   const location = useLocation();
   const ShowFooter = location.pathname === '/contact';
+  const scrollToTop = () => {
+    window.scrollTo({ top: 0, behavior: 'smooth' });
+  }
   return (
     <>
       <Navbar />
@@ -30,13 +33,13 @@ const AppContent = () => {
         <Route path='/' element={<Home />} />
         <Route path='/product' element={<Product />} />
         <Route path='/products/:id' element={<SingleProduct />} />
-         <Route path='/categories/:category' element={<SingleCategory />} />
+        <Route path='/categories/:category' element={<SingleCategory />} />
         <Route path='/about' element={<About />} />
         <Route path='/contact' element={<Contact />} />
         <Route path='/cart' element={<Cart />} />
-        {/* <Route path='/signIn'element={<SignIn/>}></Route> */}
-      </Routes>
+        </Routes>
       {!ShowFooter && <Footer />}
+      <button className="btn secondary scrolltop" onClick={scrollToTop}>^</button>
     </>
   )
 }

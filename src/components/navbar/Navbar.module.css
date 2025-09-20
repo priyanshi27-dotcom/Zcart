@@ -1,40 +1,46 @@
 .logo {
-    font-size:3rem;
-     font-weight: 700;
+    font-size: 3rem;
+    font-weight: 700;
 }
-.logospan{
-    color:var(--grey);
+
+.logospan {
+    color: var(--grey);
     font-family: 'Times New Roman', Times, serif;
 }
-.li{
-    margin: 1.4rem ;
+
+.li {
+    margin: 1.4rem;
     cursor: pointer;
-    border-bottom:0;
+    border-bottom: 0;
     transition: border 0s linear;
 }
 
-.button{
-     margin: 0.8rem 0 1.4rem 1.4rem;
+.button {
+    margin: 0.8rem 0 1.4rem 1.4rem;
     cursor: pointer;
 }
-.active{
-    border-bottom:3px solid var(--red);
+
+.active {
+    border-bottom: 3px solid var(--red);
 }
-.siteHeader{
+
+.siteHeader {
     padding: 0.6rem 0;
- }
- .count{
+}
+
+.count {
     background-color: var(--red);
-    color:var(--white);
+    color: var(--white);
     position: absolute;
     top: -40%;
     left: 53%;
     width: 23px;
     border-radius: 50%;
-    padding-left:7px;
-    font-size:1.5rem;
- }
- .signIn{
+    padding-left: 7px;
+    font-size: 1.5rem;
+}
+
+.signIn {
     margin: 0.7rem 1.4rem;
     padding: 1rem 1.5rem;
     background-color: var(--red);
@@ -42,61 +48,68 @@
     border: 0px;
     font-size: 1.5rem;
     border-radius: 5px;
- }
- .icon{
+}
+
+.icon {
     font-size: 2rem;
     font-weight: 800;
     color: var(--black);
     margin-top: 1rem;
     display: none;
- }
- 
- /* =====responsive======= */
+}
 
- @media (max-width:768px) {
-    .navbar{
+/* =====responsive======= */
+
+@media (max-width:768px) {
+    .navbar {
         flex-direction: column;
-        transition:all 0.3s linear;
+        transition: all 0.3s linear;
         height: 100vh;
         width: 300px;
-        position:fixed;
-        top:8%;
+        position: fixed;
+        top: 8%;
         left: -300px;
         right: 0;
         bottom: 0;
         background-color: var(--black);
         color: var(--white);
-        z-index:1002;
+        z-index: 1002;
         overflow-y: auto;
     }
-    .navbar.open{
-       left:0;
+
+    .navbar.open {
+        left: 0;
     }
-    .active{
-    border-bottom:0px;
-    right:0;
+
+    .active {
+        border-bottom: 0px;
+        right: 0;
     }
-    .count{
-        left:16%;
-        top:16%
-      }
-    .li{
-     padding:2.5rem 3rem;
-     border-bottom:1px solid var(--white) ;
-    margin: 0;
+
+    .count {
+        left: 16%;
+        top: 16%
     }
+
+    .li {
+        padding: 2.5rem 3rem;
+        border-bottom: 1px solid var(--white);
+        margin: 0;
+    }
+
     .icon {
-     display: block;
+        display: block;
     }
-    .overlay{
-        position:fixed;
+
+    .overlay {
+        position: fixed;
         top: 0;
         left: 0;
         height: 100vh;
         width: 100vw;
-        background-color: rgba(0, 0, 0, 0.5); 
+        background-color: rgba(0, 0, 0, 0.5);
         z-index: 1000;
     }
-   
-       
-     }
+
+
+}
