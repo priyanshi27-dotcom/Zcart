@@ -23,9 +23,7 @@ function App() {
 const AppContent = () => {
   const location = useLocation();
   const ShowFooter = location.pathname === '/contact';
-  const scrollToTop = () => {
-    window.scrollTo({ top: 0, behavior: 'smooth' });
-  }
+  
   return (
     <>
       <Navbar />
@@ -39,8 +37,7 @@ const AppContent = () => {
         <Route path='/cart' element={<Cart />} />
         </Routes>
       {!ShowFooter && <Footer />}
-      <button className="btn secondary scrolltop" onClick={scrollToTop}>^</button>
-    </>
+        </>
   )
 }
 
